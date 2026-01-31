@@ -151,7 +151,7 @@ export default function Dashboard() {
           transition={{ delay: 1 }}
         >
           <p className="text-sm text-gray-400">
-            Streaming live from <span className="text-cyan-400 font-mono">Polygon Mainnet</span> ·{' '}
+            Streaming live from <span className="text-cyan-400 font-mono">Aleo Mainnet</span> ·{' '}
             {transactions.length} events cached
           </p>
           <p className="text-xs text-gray-500 mt-2">
