@@ -17,7 +17,7 @@ All delivered with Aleo’s strong privacy guarantees, ultra-low fees, and insta
 With a degen-styled **Next.js + Tailwind** interface, AIScan converts raw on-chain activity into actionable alpha for AI + Crypto builders — enabling them to showcase investor-ready metrics (TVL growth, user traction, yield efficiency) privately and raise capital faster on the leading zero-knowledge L1 blockchain.
 
 🔴 **Live Demo:** [https://polygon-pulse.vercel.app/](https://polygon-pulse.vercel.app/)  
-*(Note: Update this link to the new Aleo-based deployment when ready)*
+
 
 ## The smart contract successfully built and deployed to the Mainnet. The contract is live at 0xd9aC52cCaD325f96398A06ADad409B30b3768d24
 ---
