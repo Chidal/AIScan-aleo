@@ -21,7 +21,7 @@
     "chartjs-chart-matrix": "^2.1.1",
     "ethers": "^6.15.0",
     "framer-motion": "^12.23.22",
-    "next": "15.5.2",
+    "next": "15.5.10",
     "pino-pretty": "^13.1.1",
     "react": "19.1.0",
     "react-chartjs-2": "^5.3.0",
