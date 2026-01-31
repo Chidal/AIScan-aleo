@@ -89,7 +89,7 @@ const DeveloperDashboard: React.FC = () => {
       variants={staggerContainer}
     >
       <motion.h1 className="text-4xl font-bold text-white mb-2" variants={fadeIn}>
-        Polygon Developer Dashboard (/nerds)
+        Aleo Developer Dashboard (/nerds)
       </motion.h1>
       <motion.p className="text-gray-400 mb-8" variants={fadeIn}>
         Mainnet Contract: <span className="font-mono text-cyan-400">0xd9aC52cCaD325f96398A06ADad409B30b3768d24</span>
