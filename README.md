@@ -1,22 +1,22 @@
-# **Polygon Pulse**
+# **AIScan**
 
 ## **Overview**
 
-**Polygon Pulse** is an AI-powered, real-time on-chain analytics and fundraising intelligence dashboard built natively on **Polygon PoS** & **zkEVM**.
+**AIScan** is an AI-powered, real-time on-chain analytics and fundraising intelligence dashboard built natively on **Aleo**.
 
 It provides:
 
-* Instant transaction feeds
+* Instant private transaction feeds
 * DeFi yield tracking
 * Wallet monitoring
 * Anomaly detection
 * VC-pattern matching insights
 
-All delivered with Polygon’s ultra-low fees and sub-second finality.
+All delivered with Aleo’s strong privacy guarantees, ultra-low fees, and instant finality.
 
-With a degen-styled **Next.js + Tailwind** interface, Polygon Pulse converts raw on-chain activity into actionable alpha for AI + Crypto builders — enabling them to showcase investor-ready metrics (TVL growth, user traction, yield efficiency) and raise capital faster on the most scalable, cost-efficient Ethereum L2.
+With a degen-styled **Next.js + Tailwind** interface, AIScan converts raw on-chain activity into actionable alpha for AI + Crypto builders — enabling them to showcase investor-ready metrics (TVL growth, user traction, yield efficiency) privately and raise capital faster on the leading zero-knowledge L1 blockchain.
 
-🔴 **Live Demo:** [https://polygon-pulse.vercel.app/](https://polygon-pulse.vercel.app/)
+🔴 **Live Demo:** [https://polygon-pulse.vercel.app/](https://polygon-pulse.vercel.app/)  
 
 
 ## The smart contract successfully built and deployed to the Mainnet. The contract is live at 0xd9aC52cCaD325f96398A06ADad409B30b3768d24
@@ -26,13 +26,13 @@ With a degen-styled **Next.js + Tailwind** interface, Polygon Pulse converts raw
 
 ### 🔥 Real-Time Feeds
 
-* Live transaction, swap, and yield event streaming
-* Powered by Polygon RPC + WebSockets
+* Live private transaction, swap, and yield event streaming
+* Powered by Aleo RPC + WebSockets
 
 ### 🤖 AI Insights Panel
 
-* On-chain AI summaries
-* Example: *“5 high-volume NFT mints boosting liquidity”*
+* On-chain AI summaries (privacy-preserving)
+* Example: *“5 high-volume private NFT mints boosting liquidity”*
 * Anomaly detection: *“Unusual whale rotation into AI agent tokens”*
 
 ### 📈 Fundraising Intelligence
@@ -43,7 +43,7 @@ With a degen-styled **Next.js + Tailwind** interface, Polygon Pulse converts raw
 
 ### 💰 DeFi Yield Explorer
 
-* Track APYs and top strategies across Polygon protocols
+* Track APYs and top strategies across Aleo protocols
 * Updated in real time
 
 ### 🕹 Gamified Elements
@@ -54,7 +54,7 @@ With a degen-styled **Next.js + Tailwind** interface, Polygon Pulse converts raw
 
 ### 🧑‍💻 Developer Dashboard (`/nerds`)
 
-* Raw + decoded events
+* Raw + decoded events (where public)
 * API playground
 * Webhook testing tools
 
@@ -68,17 +68,18 @@ With a degen-styled **Next.js + Tailwind** interface, Polygon Pulse converts raw
 * **Tailwind CSS** – degen aesthetic
 * **Chart.js + Framer Motion** – smooth charts & animations
 
-### **Polygon Stack**
+### **Aleo Stack**
 
-* Polygon **PoS & zkEVM**
-* Polygon **CDK-ready architecture** for custom chains
-* **Viem + Wagmi** for chain interaction
+* Aleo **L1** with zero-knowledge execution
+* **snarkVM** + **snarkOS** architecture
+* **AleoBFT** consensus for instant finality
+* **Viem + Wagmi** for chain interaction (Aleo-compatible libraries)
 * **RainbowKit** – plug-and-play wallet connect
-* **Ethers.js** – log parsing & ABI decoding
+* **Aleo SDK / Leo tooling** – record model & transition parsing
 
 ### **Real-Time & AI**
 
-* Polygon **WebSockets** + RPC polling fallback
+* Aleo **WebSockets** + RPC polling fallback
 * Lightweight **on-chain/off-chain AI models** for:
 
   * Summarization
@@ -89,17 +90,17 @@ With a degen-styled **Next.js + Tailwind** interface, Polygon Pulse converts raw
 ## **Getting Started**
 
 ```bash
-git clone https://github.com/yourteam/polygon-pulse.git
-cd polygon-pulse
+git clone https://github.com/yourteam/aiscan.git
+cd aiscan
 npm install
 
 cp .env.example .env.local
-# Add your Polygon RPC + WalletConnect Project ID
+# Add your Aleo RPC endpoint + WalletConnect Project ID (or Aleo wallet provider)
 
 npm run dev
 ```
 
-Open **[http://localhost:3000](http://localhost:3000)**, connect MetaMask to Polygon → **instant alpha**.
+Open **[http://localhost:3000](http://localhost:3000)**, connect your Aleo-compatible wallet → **instant private alpha**.
 
 ---
 
@@ -115,16 +116,14 @@ Open **[http://localhost:3000](http://localhost:3000)**, connect MetaMask to Pol
 ### 🚀 **Next**
 
 * On-chain prediction markets (“Beat the AI”) with prize pools
-* One-click copy-trading (“Mirror this whale”)
-* AggLayer-powered cross-chain analytics
+* One-click copy-trading (“Mirror this whale”) — privacy preserved
+* Cross-program analytics leveraging Aleo’s record model
 * SDK + CLI for builders
-* Tokenized *Insight NFTs* — trade premium dashboards & AI models
+* Tokenized *Insight NFTs* — trade premium dashboards & AI models privately
 
 ### 🌐 **Long-Term Vision**
 
-> Become the **Bloomberg Terminal + PitchBook for Polygon-native AI, DeFi, and Infra startups** — from launch to fully funded.
+> Become the **Bloomberg Terminal + PitchBook for Aleo-native AI, DeFi, and Infra startups** — from launch to fully funded, with privacy by design.
 
-Built **100% on Polygon**.
-The AI + Crypto revolution is here — **fund the future.**
-
----
+Built **100% on Aleo**.
+The private AI + Crypto revolution is here — **fund the future.**
