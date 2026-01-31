@@ -73,7 +73,7 @@ export default function Dashboard() {
         variants={fadeIn}
       >
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 drop-shadow-lg animate-pulse">
-          Polygon Pulse
+          AIScan
         </h1>
         <div className="flex items-center gap-3">
           <div
@@ -99,7 +99,7 @@ export default function Dashboard() {
           className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-10 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-purple-400 to-pink-500 drop-shadow-md"
           variants={fadeIn}
         >
-          Real-Time Polygon Chain Intelligence
+          Real-Time AIScan Chain Intelligence
         </motion.h2>
 
         {/* Feature Grid – Updated for 4 cards (AggLayer overview added) */}
