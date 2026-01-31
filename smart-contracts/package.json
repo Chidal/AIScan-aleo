@@ -1,7 +1,7 @@
 {
   "name": "contracts",
   "version": "1.0.0",
-  "description": "Pulse-dapp contracts",
+  "description": "aiscan-dapp contracts",
   "main": "index.js",
   "scripts": {
     "compile": "hardhat compile",

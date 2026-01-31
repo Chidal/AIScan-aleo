@@ -41,7 +41,7 @@ export default function Home() {
         variants={fadeIn}
       >
         <h1 className="text-3xl md:text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-pink-500 text-shadow-glow">
-          Pulse
+          AIScan
         </h1>
         <WalletConnect />
       </motion.header>
