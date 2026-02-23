@@ -1,0 +1,20 @@
+# inputs/ogvoe.in
+# Template inputs for testing ogvoe.aleo transitions locally
+
+# For listing a new model (public inputs only)
+[list_model]
+name: string = "My Awesome AI Summarizer";
+cid: string = "QmExampleCIDFromIPFSor0GStorage123456789";
+
+# For using a model (requires a previously created AIModel record ciphertext)
+# Get this from output of `leo run list_model` or testnet execution
+[use_model]
+model_record: AIModel = "record AIModel { owner: aleo1yourtestaddresshere.private, model_id: 123456789field.private, name: \"My Awesome AI Summarizer\".private, cid: \"QmExampleCIDFromIPFSor0GStorage123456789\".private, total_uses: 0u64.private, active: true.private, _nonce: 987654321group.public }";
+
+# For deactivating a model (same as above – provide record ciphertext)
+[deactivate_model]
+model_record: AIModel = "record AIModel { owner: aleo1yourtestaddresshere.private, model_id: 123456789field.private, name: \"My Awesome AI Summarizer\".private, cid: \"QmExampleCIDFromIPFSor0GStorage123456789\".private, total_uses: 5u64.private, active: true.private, _nonce: 987654322group.public }";
+
+# Optional: For view-like transitions (if you add more)
+[get_model_public]
+model_id: field = 123456789field;

@@ -1,0 +1,8 @@
+{
+  "program": "ogvoe.aleo",
+  "version": "0.1.0",
+  "description": "0G-VOE: AI Model Marketplace on Aleo – Privacy-preserving listing, usage, and management of AI models",
+  "license": "MIT",
+  "dependencies": null,
+  "dev_dependencies": null
+}
